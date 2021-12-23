@@ -1,0 +1,229 @@
+<title>学生首页</title>
+<link rel="stylesheet" type="text/css" href="../../static/style.css">
+    <link rel="stylesheet" type="text/css" href="../../static/tinyscrollbar.css">
+</head>
+<body>
+    <div class="wrapbox">
+        <!-- Header -->
+        <div id="header">
+            <div class="box">
+                <div class="logo">
+                    
+                  <a title="考勤信息">
+                        </a><h1>
+                            考勤信息</h1>
+                    <span class="logoside r"></span>
+                </div>
+                <div class="toprow">               
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="box">
+                <ul>
+                    <li><a class="sprite parent-m parent-active" href="/User"><span class="sprite">个人中心</span></a></li>
+                </ul>
+            </div>
+        </div>
+<!-- Side Left -->
+<div id="sideleft">
+    <ul class="user-menu">
+        <li><a> 基本信息</a></li>
+        <li><a>请假信息</a></li>
+        <li><a>考勤信息</a></li>
+         </ul>
+  </div>
+<!-- #Off -->
+
+    <input type="hidden" id="pageIndex" value="2">
+    <!-- Content -->
+    <div id="user-body">
+        <div class="user-body-inner">
+            <div class="location">
+                <div class="localbox">
+                    <ul>
+                        <li class="first beging">基本信息</li></ul>
+                </div>
+            </div>
+            <!-- 用户信息 -->
+            <div class="panel-wrap">
+                <h3>个人信息 -学生</h3>
+                <input type="hidden" id="txt_usertype" value="1">
+                <div class="box userbasepanel">
+                    <div class="avatar-box">
+                        <img src="https://th.bing.com/th/id/R.cc344adde2f352561dc894ecf9322601?rik=B2mlMcIhHg9PVQ&riu=http%3a%2f%2fwww.itmop.com%2fupload%2f2017-6%2f14964788809085493.jpg&ehk=w0FeYd51SD%2fyhbtV%2bKnhIAdtbBXKAJ5WCU05GQynqc0%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" width="100">
+                        </div>
+                    <div class="warbox">
+                        <dl>
+                            <dt>姓名：</dt><dd>{{student.stu_name}}</dd>
+                            <dt class="cutline">性别：</dt><dd>
+                            {% if student.sex == False %}
+                             女
+                            {% else %}
+                             男
+                            {% endif %}
+                            </dd></dl>
+                        <dl>
+                            <dt>
+                                学号：</dt><dd>{{student.stu_id}}</dd>
+                            <dt class="cutline">学院：</dt><dd>计算机科学与技术学院</dd></dl>
+                        
+                        <dl>
+                            <dt>手机号：</dt><dd>13510189288</dd><dt class="cutline">专业：</dt><dd>{{student.major}}</dd></dl>
+                        <dl class="last">
+                            <dt>班级：</dt><dd>19级计算机科技1班</dd><dt class="cutline">身份:</dt><dd>学生</dd></dl>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- #Off -->
+            <div class="blank-10 clearfix">
+            </div>
+            <!-- E -->
+            <div class="panel-wrap">
+                <h3 class="panelhead">
+                    <img src="http://101.76.160.244:8080/themes/default/images/blank.gif" class="icon ico-table" alt="">课程信息</h3>
+                <div class="box" style="height: auto;">
+                    <table class="room-info notice-table" width="100%" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            
+                            <tr>
+                                
+                                <td>
+                                       课程代码
+                                </td>
+                                
+                                <td>
+                                      课程名字
+                                </td>
+                                
+                                <td>
+                                      上课教室
+                                </td>
+                                
+                                <td>
+                                      开始周数
+                                </td>
+                                
+                                <td>
+                                      结束周数
+                                </td>
+                            </tr>
+                        
+            {% for course in course_list %}
+                        <tbody>
+                            
+                            <tr>
+                                
+                                <td>
+                                    {{course.cour_id}}  
+                                </td>
+                                
+                                <td>
+                                    {{course.course_name}}
+                                </td>
+                                
+                                <td>
+                                    {{course.classroom}}
+                                </td>
+                                
+                                <td>
+                                    {{course.week_start}}
+                                </td>
+                                
+                                <td>
+                                    {{course.week_end}}
+                                </td>
+                                
+                         
+                            </tr>
+                           
+                        </tbody>
+                  {% endfor %}
+                    </table>
+                </div>
+            </div>
+            <!-- E End -->
+            <div class="blank-10 clearfix">
+            </div>
+            <!-- F -->
+            <div class="panel-wrap">
+                <h3 class="panelhead">
+                    <img src="http://101.76.160.244:8080/themes/default/images/blank.gif" class="icon ico-chart2" alt="">本学期考勤统计</h3>
+                <div class="box" style="height: auto;">
+                    <table class="room-info notice-table" style="border-bottom: 1px solid #E8EAEB;" width="100%" cellspacing="0" cellpadding="0">
+                        <thead>
+                            <tr>
+                                <th>
+                                    考勤记录编号
+                                </th>
+                                <th>
+                                    课程代码
+                                </th>
+                                <th>
+                                    学生打卡时间
+                                </th>
+                                <th>
+                                    考勤周数
+                                </th>
+                            <th>
+                                    考勤情况
+                                </th>
+                            </tr>
+                        </thead>
+            {% for check in check_list %}
+		        <tbody>
+		            <tr>
+  		                        <td>
+                                       {{check.check_id}}
+                                 </td>
+                                <td>
+                                        {{check.course_id.cour_id}}
+                                </td>                            
+                                <td>
+                                        {{check.punch_time}}
+                                </td>
+                                <td>
+                                        {{check.check_week}}
+                                </td>
+                                    
+                                <td>
+                                {% if check.state == '0' %}
+                                        缺勤
+
+                                {% elif check.state == '1' %}
+                                        迟到
+
+                                {% elif check.state == '2' %}
+                                        请假
+
+                                {% elif check.state == '3' %}
+                                        正常
+                                    
+                                {% endif %}
+                                </td>
+
+                            </tr>
+                            </tbody>
+            {% endfor %}
+		
+                    </table>
+                    <div style="width: 100%; height: 500px; margin: 0 auto">
+                        <ul class="chart-ul">
+                        </ul>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+            <!-- F End -->
+            <input id="txt_startDate" type="hidden" value="2021-09-06">
+        </div>
+    </div>
+
+            </div>
+        </div>
+    
+
+
+</body></html>
