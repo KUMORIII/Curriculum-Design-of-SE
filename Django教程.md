@@ -24,7 +24,7 @@ ps：当然也可以下载安装包来安装，太懒了没试过（）
 
 在终端输入命令```django-admin startproject 项目名```，会生成如下项目框架
 
-![image-20211122174651344](C:\Users\11626\AppData\Roaming\Typora\typora-user-images\image-20211122174651344.png)
+![image-20211122174651344](C:\Users\11626\OneDrive - stu.ahu.edu.cn\Typora Images\image-20211122174651344.png)
 
 > **manage.py:** 一个实用的命令行工具，可让你以各种方式与该 Django 项目进行交互。
 >
@@ -42,17 +42,17 @@ ps：当然也可以下载安装包来安装，太懒了没试过（）
 
 终端进入刚刚创建的项目文件中，输入```python manage.py startapp app名```，会自动生成app文件夹，该文件夹包括几个文件：
 
-![image-20211122180404480](C:\Users\11626\AppData\Roaming\Typora\typora-user-images\image-20211122180404480.png)
+![image-20211122180404480](C:\Users\11626\OneDrive - stu.ahu.edu.cn\Typora Images\image-20211122180404480.png)
 
 每创建一个app就要打开project项目文件中的settings.py，找到```INSTALLED_APPS```，将自己创建的app名，加入到列表中，如下：
 
-![image-20211122180752813](C:\Users\11626\AppData\Roaming\Typora\typora-user-images\image-20211122180752813.png)
+![image-20211122180752813](C:\Users\11626\OneDrive - stu.ahu.edu.cn\Typora Images\image-20211122180752813.png)
 
 ### 关于前端配置
 
 在项目目录中创建templates文件夹，将html网页界面文件放入其中，并在settings.py中找到```TEMPLATES```，在'DIRS'中输入templates文件夹的路径即可完成前端的配置
 
-![image-20211122181522686](C:\Users\11626\AppData\Roaming\Typora\typora-user-images\image-20211122181522686.png)
+![image-20211122181522686](C:\Users\11626\OneDrive - stu.ahu.edu.cn\Typora Images\image-20211122181522686.png)
 
 另外关于静态渲染的css等文件，可以在目录中再创建static文件夹，存放css文件以及各种图片、gif等，从static文件夹路径中调取文件对界面进行渲染。
 
@@ -62,11 +62,11 @@ ps：当然也可以下载安装包来安装，太懒了没试过（）
 
 使用sqlite3数据库配置如下：
 
-![image-20211122182129128](C:\Users\11626\AppData\Roaming\Typora\typora-user-images\image-20211122182129128.png)
+![image-20211122182129128](C:\Users\11626\OneDrive - stu.ahu.edu.cn\Typora Images\image-20211122182129128.png)
 
 使用MySql数据库配置格式如下：
 
-![image-20211122182303292](C:\Users\11626\AppData\Roaming\Typora\typora-user-images\image-20211122182303292.png)
+![image-20211122182303292](C:\Users\11626\OneDrive - stu.ahu.edu.cn\Typora Images\image-20211122182303292.png)
 
 ## manage.py常用命令
 
