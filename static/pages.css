@@ -1,0 +1,34 @@
+/* 通知待办事项 */
+.noticediv              {height: 140px;}
+.noticediv .box         {background-color: #f4f4f4;border: 1px solid #517a14;height: 90px;overflow: visible;padding: 5px 0 5px 2px;}
+.noticediv .notice-title{font-weight: bold;height: 25px;width: 125px;position:relative;bottom:-1px;}
+.notice-title div       {float:left;}
+.notice-title .t-l,
+.notice-title .t-r      {width:4px;overflow:hidden;height:25px;}
+.notice-title .t-l      {background-position: -256px -64px;}
+.notice-title .t-r      {background-position: -264px -64px;}
+.notice-title .t-c      {background-color:#F6F6F6;border-top:1px solid #517A14;padding:6px 8px 0 4px;height:18px;}
+.noticediv .list-ul     {border-right: 1px dotted #b6b6b6;height: 100%;width:32%;padding: 0 8px 0 0;float:left;}
+.noticediv .last        {border-right: 0;}
+.list-ul li             {border-bottom: 1px solid #ebe9ec;padding:6px 0 5px 0;margin-left:8px;}
+
+
+/*  错误提示页面  */
+.systemMessage            {background-color:#fff;border:1px solid #D9E7B4;font-size:14px;text-align:center;padding:40px;margin:10px 10px 0}
+.errorPage                {}
+.systemMessage .icon      {margin-right:20px;}
+.systemMessage .acctionBtn{clear:both;padding:30px 0 0;}
+
+
+
+.newslist .title {background: none repeat scroll 0 0 #e8ecf5;    border: 1px solid #d9d9d9;    color: #333;    font-size: 14px;    height: 31px;    line-height: 30px;    padding: 0 0 0 10px;}
+.newslist>ul{border:1px solid #e8ecf5;border-top:0;}
+.newslist>ul>li {background: none repeat scroll 0 0 #fff;overflow: hidden;border-bottom:1px dotted #e8ecf5;font-size:12px;}
+.newslist>ul>li>a{display:block;padding:5px 12px;}
+
+.newsview{background:#fff;border:1px solid #ddd;padding:24px 40px;box-shadow:0 0 5px #ccc;margin:5px 10px}
+.newsviewtitle{font-family:'Microsoft Yahei';font-weight:normal;text-align:center;margin:15px 0;line-height:100%;}
+.newsinfo{background:#F6F6F6;border-bottom:1px solid #EFEFEF;margin:20px 0;padding:5px;text-align:center;font-size:12px;}
+.viewpage{border-top:1px solid #ccc;padding:10px 0 0;margin:15px 0 0;height:30px;}
+.viewpage>.prev{float:left}
+.viewpage>.next{float:right}

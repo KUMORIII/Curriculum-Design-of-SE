@@ -1,0 +1,8 @@
+.linkbox         {padding: 10px 0;width:1250px;margin:0 auto;text-align:center;min-width:1024px;}
+.linkbox a       {margin: 0 14px;white-space: nowrap;}
+.linkbox a:hover {color:#0000FF;}
+#footer          {background-color:#E0E0E0;min-width:1024px;margin:0 auto;}
+*html #footer    {width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1024?"1024px":"");}
+#footer .box     {padding: 8px 5px 8px;width:990px;margin:0 auto;}
+#footer dl       {overflow: hidden;height:auto;}
+#footer dl dt    {color: #999;font-size:14px;line-height: 18px;padding:0;float:none;text-align:center;}

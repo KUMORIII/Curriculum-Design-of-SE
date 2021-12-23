@@ -1,0 +1,20 @@
+/* Reset Of SYS Public Style */
+*      {margin: 0;}
+
+body   {background-color:#fff;font: 14px/18px arial,'Microsoft Yahei';min-width:1024px;}
+/*dt,dd  {float:left;}*/
+li     {list-style: none outside none;}
+select {padding: 3px;padding: 2px\9;}
+a      {color:#;cursor: pointer;  outline: medium none; text-decoration: none;}
+a:hover{color:blue;text-decoration:underline;}
+
+ul,img, ol {margin:0;padding:0;border: none;}
+dl     {overflow:hidden;}
+*html dl{height:1%;overflow:visible;}
+.sprite{background-image: url(images/sprite.png);background-repeat:no-repeat;}
+*html .sprite{background-image: url(images/ie6/sprite.gif);}
+.repeat{background-image: url(images/repeat.gif);background-repeat:repeat-x;}
+.fixbackground  {background:#ECF2F3 url(images/body.jpg) repeat-x 0 bottom/**/;}
+.fixheight      {_height:1000px;min-width:1000px;overflow:hidden;}
+*html .fixheight{width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1000?"1000px":"");}
+*html .system-item li img{ azimuth:expression(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage= "none",this.runtimeStyle.filter ="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "',sizingMethod='scale')",this.src = "themes/default/images/blank.gif"):(this.origBg =this.origBg? this.origBg:this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),this.runtimeStyle.filter= "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "',sizingMethod='crop')",this.runtimeStyle.backgroundImage ="none")),this.pngSet=true); }

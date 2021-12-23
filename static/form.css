@@ -1,0 +1,59 @@
+/* Form Filed Style */
+input             {margin: 0;padding: 0;font-family:arial;font-size:14px;}
+select            {padding: 4px;}
+*html select      {position: relative;top: 2px;}
+*+html select     {position: relative;top: 2px;}
+
+/* Radio/Checkbox */
+.checkbox         {vertical-align:middle;margin:-2px 4px 0 0;position:relative;}
+* html .checkbox  {margin-top:-5px}
+.radio            {vertical-align:middle;margin:-3px 4px 0 0;}
+* html .radio     {margin-top:-5px;}
+*+ html .radio    {margin-top:-2px;}
+
+/* Input Text */
+.textinput,
+.textinput_s      {background-color:#fff;border-width: 1px;border-style:solid;border-color:#555 #CCC #CCC #555;outline:0 none;overflow:hidden;vertical-align:baseline;}
+.textinput:focus,
+.textinput_s:focus{background-color:#c3cfe2;border-color:#c3cfe2;}
+.textinput        {padding:7px 4px 6px;}
+.textinput_s      {height: 16px;padding:4px 2px 4px;}
+
+/* Selecte */
+.selecte          {display: inline-block; cursor: default;position:relative;}
+.selecte s        {background-position:-256px -98px;position:absolute;right:0;top:0;height:24px;width:17px;}
+.selecte .text    {background-color: #fff;border-width:1px 0 1px 1px;border-style:solid;border-color:#C5C5C5 transparent #E3E9EF #C5C5C5;height: 22px;line-height: 22px;margin-right: 17px;padding-left:4px;display: inline-block;overflow: hidden;}
+.selecte-hover .text{background-color:#FFFFE1;border-color:#517A14 transparent #517A14 #517A14;}
+.selecte-hover s  {background-position:-278px -98px;}
+.asterisk         {font-family:'simsun';color:#f00;padding-left:4px;}
+
+.turnback,.edit{
+	background-image: url(images/icon.gif);background-repeat:no-repeat;
+}
+.turnback{
+	background-position:0 2px;padding-left:16px;
+}
+.edit{background-position:0 -27px;color:#fff;padding-left:14px;margin-left:20px;}
+
+
+.moreLinkbtn,.moreLinkbtn span{
+	display: inline-block;
+}
+.moreLinkbtn{background-position:0 -291px;padding-left:37px;}
+.moreLinkbtn span{background-position:right -291px;height:21px;padding:8px 20px 0 0;}
+
+
+.searchmore{background-position:0 -87px;cursor:pointer;}
+
+
+
+
+.select{padding:4px;}
+.select .value{color:#666;float:left;height:16px;padding:4px 4px 0;}
+.select .ico{
+	background-image:url('images/darrow.gif');background-repeat:no-repeat;background-position:0 0;float:left;height:20px;width:14px;overflow:hidden;text-indent:-999em;cursor:pointer;
+}
+.readCardIco{
+	background-position:0 -356px;cursor:pointer;height:20px;width:50px;padding:0;margin:0;border:none;background-color:#ccc;margin:0 0 0 1px;
+}
+* html .readCardIco{margin-top:1px;}

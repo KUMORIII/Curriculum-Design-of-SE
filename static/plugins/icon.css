@@ -1,0 +1,290 @@
+/* Icon style of sys */
+.icon             {background-image: url(images/icon.png);background-repeat:no-repeat;background-position: -8px -8px;width:16px;height:16px;vertical-align:middle;margin-right:4px;}
+*html .icon       {background-image: url(images/ie6/icon.gif);}
+.ico-arrow-1      {background-position: -40px -8px;margin-top:-2px;}
+.ico-arrow-2      {background-position: -56px -8px;}
+.ico-clock        {background-position: -40px -40px;width:20px;height:20px;margin:-2px 5px 0 0;}
+.ico-remind       {background-position: -8px -248px;}
+.ico-s-1,
+.ico-s-2,
+.ico-s-3,
+.ico-s-4          {color:#fff;width:22px;float:left;padding:0 0 0 4px;line-height:16px;_line-height:17px;margin:0;}
+.ico-s-1          {background-position: -40px -64px;}
+.ico-s-2          {background-position: -40px -88px;}
+.ico-s-3          {background-position: -40px -112px;}
+.ico-s-4          {background-position: -40px -136px;}
+.ico-print        {background-position: -40px -160px;}
+.ico-info         {background-position: -64px -160px;}
+.ico-del-s        {background-position: -88px -8px;cursor:pointer;}
+.ico-edit1        {background-position: -88px -160px;}
+.ico-import       {background-position: -112px -160px;}
+.ico-import-light {background-position: -328px -272px;}
+.ico-more         {background-image:url(images/more.png);background-position: 0 -20px;width:40px !important;height:20px !important;margin:0;}
+.ico-new          {background-position: -136px -37px;width:24px;margin-left:4px;}
+.ico-home         {background-position: -40px -192px;}
+.ico-create       {background-position: -64px -192px;}
+.ico-add          {background-position: -88px -192px;}
+.ico-del          {background-position: -112px -192px;}
+.ico-cacel        {background-position: -136px -192px;}
+.ico-edit         {background-position: -160px -192px;}
+.ico-list         {background-position: -184px -192px;}
+.ico-lock         {background-position: -208px -192px;}
+.ico-unlock       {background-position: -208px -216px;}
+.ico-save         {background-position: -232px -192px;}
+.ico-exp          {background-position: -256px -192px;}
+.ico-impt         {background-position: -280px -192px;}
+.ico-form         {background-position: -328px -192px;}
+.ico-return       {background-position: -352px -192px;}
+.ico-refresh      {background-position: -376px -192px;}
+.ico-set          {background-position: -400px -192px;}
+.ico-view         {background-position: -424px -192px;}
+.ico-warning      {background-position: -448px -192px;}
+.ico-calendar     {background-position: -472px -192px;}
+.ico-legend       {background-position: -496px -192px;}
+.ico-help         {background-position: -520px -192px;}
+.ico-addrole      {background-position: -544px -192px;}
+.ico-addlimit     {background-position: -568px -192px;}
+.ico-stop         {background-position: -184px -160px;}
+.ico-stoped       {background-position: -184px -136px;}
+.ico-enabled      {background-position: -208px -160px;}
+.ico-undo         {background-position: -136px -160px;}
+.ico-check        {background-position: -160px -160px;}
+.ico-check-1      {background-position: -376px -224px;}
+.ico-load         {background-image: url(images/loading.gif);background-position: 0 0;}
+.ico-recycle      {background-position: -232px -160px;}
+.ico-bind         {background-position: -296px -160px;}
+.ico-add2         {background-position: -320px -160px;}
+.ico-adduser      {background-position: -344px -160px;}
+.ico-addlight     {background-position: -472px -272px;}
+.ico-zoomlight    {background-position: -496px -272px;}
+.ico-add-24       {background-position: -288px -40px;width:24px;height:24px;}
+.ico-expand       {background-position: -368px -160px;}
+.ico-no           {background-position: -520px -224px;}
+.ico-noed         {background-position: -520px -136px;}
+.ico-folder-16    {background-position: -392px -160px;}
+.ico-move         {background-position: -544px -224px;}
+.ico-up           {background-position: -560px -224px;}
+.ico-down         {background-position: -584px -224px;}
+.ico-left         {background-position: -296px -120px;}
+.ico-right        {background-position: -320px -120px;}
+.ico-batch        {background-position: -424px -160px;}
+.ico-batchsave    {background-position: -472px -160px;}
+.ico-yes          {background-position: -496px -160px;}
+.ico-download     {background-position: -208px -136px;}
+.ico-search-24    {background-position: -320px -72px;width:24px;height:24px;margin:0;}
+.ico-wait-light   {background-position: -272px -136px;}
+.ico-wait         {background-position: -272px -120px;}
+.ico-plus         {background-position: -344px -120px;}
+.ico-minus        {background-position: -360px -120px;}
+.ico-filter       {background-position: -544px -160px;}
+.ico-map          {background-position: -64px -520px;}
+.ico-call         {background-position: -88px -520px;}
+.ico-cloud        {background-position: -112px -520px;}
+.ico-tv           {background-position: -136px -520px;}
+.ico-web          {background-position: -160px -520px;}
+.ico-board        {background-position: -184px -520px;}
+.ico-pages        {background-position: -208px -520px;}
+.ico-lesson       {background-position: -232px -520px;}
+.ico-ftp          {background-position: -256px -520px;}
+.ico-rowdown      {background-image: url(images/sprite.png);background-repeat:no-repeat;background-position: -638px -64px;}
+.ico-rowdown2      {background-image: url(images/sprite.png);background-repeat:no-repeat;background-position: -688px -216px;}
+
+.ico-news         {background-position: -64px -224px;}
+.ico-setting      {background-position: -40px -224px;}
+.ico-backhome     {background-position: -88px -224px;}
+.active .ico-news    {background-position: -64px -248px;}
+.active .ico-setting {background-position: -40px -248px;}
+.active .ico-backhome{background-position: -88px -248px;}
+.ico-error-b,
+.ico-tips-b,
+.ico-success-b,
+.ico-confirm-b,
+.ico-warning-b    {width:42px;height:42px;}
+.ico-error-b      {background-position: -40px -344px;}
+.ico-tips-b       {background-position: -88px -344px;}
+.ico-success-b    {background-position: -136px -344px;}
+.ico-confirm-b    {background-position: -40px -392px;}
+.ico-warning-b    {background-position: -88px -392px;}
+.ico-ok           {background-position: -256px -112px;}
+.ico-ok2          {background-position: -8px -168px;}
+.ico-ok-disable   {background-position: -256px -96px;}
+.ico-close-light  {background-position: -232px -112px;}
+.ico-ok-light     {background-position: -256px -136px;}
+.ico-back-light   {background-position: -112px -272px;}
+.ico-notice{background-position: -128px -304px;}
+.ico-first{background-position: -144px -304px;}
+.ico-last{background-position: -160px -304px;}
+.ico-jz{background-position: -176px -304px;}
+.ico-gkk{background-position: -192px -304px;width:20px;}
+.ico-teacher{background-position: -568px -160px;}
+.ico-room{background-position: -584px -160px;}
+
+.ico-32           {background-position: -464px -360px;width:32px;height:32px;}
+.ico-m0           {background-position: -384px -320px;}
+.ico-m1           {background-position: -424px -320px;}
+.ico-m2           {background-position: -464px -320px;}
+.ico-m3           {background-position: -504px -320px;}
+.ico-m4           {background-position: -424px -360px;}
+.ico-m5           {background-position: -384px -360px;}
+.ico-m6           {background-position: -544px -320px;}
+.ico-uname,
+.ico-pwd,
+.ico-code         {width:20px;height:20px;}
+.ico-uname        {background-position: -8px -279px;}
+.ico-pwd          {background-position: -40px -279px;}
+.ico-code         {background-position: -72px -279px;}
+.ico-folder       {background-position: -224px -360px;}
+.ico-folder-open  {background-position: -224px -320px;}
+.ico-folder-2     {background-position: -224px -400px;}
+.ico-tips         {background-position: -264px -320px;}
+.ico-mywork       {background-position: -338px -400px;}
+.ico-warning-32   {background-position: -264px -400px;}
+.ico-yes-32       {background-position: -304px -400px;}
+/* 导航 */
+.current-a .ico-home-light   {background-position: -412px -70px;}
+.current-a .ico-user         {background-position: -435px -68px;width:18px;height:18px;}
+.current-a .ico-password     {background-position: -459px -68px;width:18px;height:18px;}
+.current-a .ico-prive        {background-position: -484px -68px;width:18px;height:18px;}
+.current-a .ico-inspection   {background-position: -507px -68px;width:18px;height:18px;}
+.current-a .ico-aca          {background-position: -531px -68px;width:18px;height:18px;}
+.current-a .ico-profile      {background-position: -552px -68px;width:24px;height:18px;}
+.current-a .ico-dataport     {background-position: -580px -68px;width:18px;height:18px;}
+.parent-m:hover .ico-home-light,
+.parent-active .ico-home-light,
+.ico-home-light   {background-position: -412px -46px;}
+.parent-m:hover .ico-user,
+.parent-active .ico-user,
+.ico-user         {background-position: -435px -44px;width:18px;height:18px;}
+.parent-m:hover .ico-password,
+.parent-active .ico-password,
+.ico-password     {background-position: -459px -44px;width:18px;height:18px;}
+.parent-m:hover .ico-prive,
+.parent-active .ico-prive,
+.ico-prive        {background-position: -484px -44px;width:18px;height:18px;}
+.parent-m:hover .ico-inspection,
+.parent-active .ico-inspection,
+.ico-inspection   {background-position: -507px -44px;width:18px;height:18px;}
+.parent-m:hover .ico-aca,
+.parent-active .ico-aca,
+.ico-aca          {background-position: -531px -44px;width:18px;height:18px;}
+.parent-m:hover .ico-profile,
+.parent-active .ico-profile,
+.ico-profile      {background-position: -552px -44px;width:24px;height:18px;}
+.parent-m:hover .ico-dataport,
+.parent-active .ico-dataport,
+.ico-dataport     {background-position: -580px -43px;width:18px;height:18px;}
+.ico-logout       {background-position: -248px -159px;}
+
+.ico-type1        {background-position: -301px -319px;}
+.ico-type2        {background-position: -337px -319px;}
+.ico-type3        {background-position: -337px -354px;}
+.ico-loading      {height:16px;width:16px;position:absolute;z-index:6;left:0;top:7px;margin-right:4px;}
+
+.ico-back         {background-position: -112px -224px;}
+.ico-manager      {background-position: -136px -224px;}
+.ico-addserver    {background-position: -160px -224px;}
+.ico-addsmall     {background-position: -303px -357px;width:32px;height:32px;}
+.ico-uncheck      {background-position: -272px -160px;}
+.ico-modify       {background-position: -184px -225px;}
+.ico-modify-20    {background-position: -224px -40px;width:24px;height:24px;}
+.ico-addsystemp   {background-position: -256px -896px;width:64px;height:64px;}
+.ico-remove-24    {background-position: -256px -40px;width:24px !important;height:24px !important;}
+.ico-change       {background-position: -232px -224px;}
+.ico-email        {background-position: -256px -224px;width:18px;}
+.ico-changepassword{background-position: -280px -224px;}
+.ico-password-faq {background-position: -304px -224px;}
+.ico-addpic       {background-position: -64px -448px;width:64px;height:64px;}
+.ico-uploadpic    {background-position: -224px -72px;width:24px;height:24px;}
+.btn-save .ico-uploadpic{position:relative;top:-4px;}
+.ico-pro{background-position: -40px -304px;width:19px;}
+.ico-yjs{background-position: -88px -280px;width:24px !important;}
+.ico-bks{background-position: -72px -304px;width:24px !important;}
+.ico-bike{background-position: -96px -304px;width:32px !important;}
+.ico-table{background-position: -432px -120px;}
+.ico-chart1{background-position: -416px -120px;}
+.ico-chart2{background-position: -400px -120px;}
+.ico-chart3{background-position: -472px -120px;}
+
+
+a:hover .ico-modify   {background-position: -184px -248px;}
+a:hover .ico-addserver{background-position: -160px -248px;}
+a:hover .ico-back     {background-position: -112px -248px;}
+a:hover .ico-manager  {background-position: -136px -248px;}
+a:hover .ico-addsmall {background-position: -267px -357px;}
+a:hover .ico-change   {background-position: -232px -248px;}
+a:hover .ico-email    {background-position: -256px -248px;}
+a:hover .ico-changepassword{background-position: -280px -248px;}
+a:hover .ico-password-faq  {background-position: -304px -248px;}
+a:hover .ico-import   {background-position: -328px -248px;}
+a:hover .ico-edit     {background-position: -352px -248px;}
+a:hover .ico-recycle  {background-position: -208px -248px;}
+a:hover .ico-del      {background-position: -448px -248px;}
+a:hover .ico-check-1  {background-position: -376px -248px;}
+a:hover .ico-stop     {background-position: -400px -248px;}
+a:hover .ico-enabled  {background-position: -424px -248px;}
+a:hover .ico-no       {background-position: -520px -248px;}
+a:hover .ico-move     {background-position: -544px -248px;}
+a:hover .ico-up       {background-position: -560px -248px;}
+a:hover .ico-down     {background-position: -584px -248px;}
+a:hover .ico-left     {background-position: -296px -136px;}
+a:hover .ico-right    {background-position: -320px -136px;}
+a:hover .ico-batch,
+.btn-change .ico-batch{background-position: -448px -160px;}
+a:hover .ico-download {background-position: -208px -112px;}
+a:hover .ico-plus     {background-position: -344px -136px;}
+a:hover .ico-minus    {background-position: -360px -136px;}
+a:hover .ico-more     {background-position: 0 0;}
+a:hover .ico-table,
+.active .ico-table{background-position: -432px -136px;}
+a:hover .ico-chart1,
+.active .ico-chart1{background-position: -416px -136px;}
+a:hover .ico-chart2,
+.active .ico-chart2{background-position: -400px -136px;}
+a:hover .ico-chart3,
+.avtive .ico-chart3{background-position: -472px -136px;}
+
+.btn-current .ico-change{background-position: -232px -272px !important;}
+.btn-current .ico-email {background-position: -256px -272px !important;}
+.btn-current .ico-changepassword{background-position: -280px -272px !important;}
+.btn-current .ico-password-faq  {background-position: -304px -272px !important;}
+.btn-current .ico-addserver     {background-position: -160px -272px !important;}
+.btn-current .ico-import{background-position: -328px -272px;}
+.ico-service            {background-position: -128px -448px;width:64px;height:64px;}
+.ico-safety             {background-position: -192px -448px;width:64px;height:64px;}
+.ico-forgot-password    {background-position: -256px -448px;width:64px;height:64px;}
+.ico-userhelp           {background-position: -320px -448px;width:64px;height:64px;}
+.ico-systemp-24{background-position: -288px -72px;width:24px;height:24px;}
+.ico-lock-24{background-position: -256px -72px;width:24px;height:24px;}
+.ico-more-1{background-position: -520px -160px;}
+
+/* Easyui ICON */
+.ico-yingshe  {background-position: -320px -40px;}
+.ico-datatable{background-position: -344px -40px;}
+.ico-datatabletype{background-position: -370px -40px;}
+
+.ico-table-2{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAUCAYAAADlep81AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1RTU4RDEwOUU2RDYxMUUzQTMwQkQyQzI0MERERDI2NiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1RTU4RDEwOEU2RDYxMUUzQTMwQkQyQzI0MERERDI2NiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RUY2RTNCNTM5RTZFMzExOTE0REQ5OUJBRURGRjRCRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ps6ZchAAAABqSURBVHjaYly9erUWAwPDUiDmYRh40MsCJKYCsQHD4ADFTEDCgWHwABUmhkEGWKA0Iw75/7SWCwkJgUusWbPm/6ALoUEbZf/xqKGpHDCaRtPQaBoaTUOjaWg0DY2mIUrT0IFBlIbuAAQYAJ96QteoANasAAAAAElFTkSuQmCC");width:36px;height:20px;margin-right:10px;}
+/*
+.active .ico-table-2{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAUCAYAAADlep81AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1QkVGRTNFQkU2RDUxMUUzOTNFNTk1QzE3RTE1RTcxNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1QkVGRTNFQUU2RDUxMUUzOTNFNTk1QzE3RTE1RTcxNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RUY2RTNCNTM5RTZFMzExOTE0REQ5OUJBRURGRjRCRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvI5f5AAAABQSURBVHjaYvz//78WAwPDUiDmYRh40MsIdNB+IMOBYXCAOyAH/WcYRGDQOogRhzzd5UYdRKyDRtPQaBoaTUOjaWg0DY2moaHsoEHVYgQIMAAsko3mjY3xqQAAAABJRU5ErkJggg==");width:36px;height:20px;margin-right:10px;}
+**/
+.ico-chat-2 {background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAATCAYAAAAgcwuHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGNjE1M0E5REU2RDUxMUUzOUYwQ0JBOERFREZBNTQ3QSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGNjE1M0E5Q0U2RDUxMUUzOUYwQ0JBOERFREZBNTQ3QSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RUY2RTNCNTM5RTZFMzExOTE0REQ5OUJBRURGRjRCRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pvgexc8AAADISURBVHjaYvz//z8DKWDNmjXI3N1ArAVlXwNiV4ZBDkJCQlD4LBSaB/K8FMMQBkwMIxyMBgANzASVC0+hePdgDwAWGpg5pMoFogMAWPoPVIlPib0E9bIMspjF5mBK7CWol2WQpUi6Zx8mOiZjWheMZNnBMoxiliw7BlsWoDlAL8yHagBQUjOgpJShGgBUy1JMAxyLA95iZCEmnwC7kK6DORZp0RIc8t3c0d4gsSkAmNxXA2krKP8YMLmHQktWBqRSlmG4igEEGABGu0Y+7DIYuQAAAABJRU5ErkJggg==");background-repeat:no-repeat;width:36px;height:20px;margin-right:10px;}
+.active .ico-chat-2 {background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAATCAYAAAAgcwuHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4MjU0RjE0OUU2RDYxMUUzOUFFQUQ0NkIwRjM1NEMwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4MjU0RjE0OEU2RDYxMUUzOUFFQUQ0NkIwRjM1NEMwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RUY2RTNCNTM5RTZFMzExOTE0REQ5OUJBRURGRjRCRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDMzgyRTZFNDNFQzFFMzExQTgwRERFNjMzMkFFMEVCRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pujj9zMAAACsSURBVHjaYvz//z8DBWA3EGtB2deA2JVhiAEWCvWDPC/FMIQBE8MIB6MBQAMzQeXCUyjePdzLgCFfLjANgZilxF6CelkGWcxiq1YpsZegXpZBliLpnn2YhkAypqkdLMMoZsmyY7BlAXqlRng5wzIcPEFiHwQlpQzVAKBalmIa4Fgc8BYjywB2cwdFi5FluHZzR3uDJKSA1UBsBeUfA+JQaLJnQMoCDMNVDCDAACC9PPQOfm8yAAAAAElFTkSuQmCC");background-repeat:no-repeat;width:36px;height:20px;margin-right:10px;}
+.ico-xiaofei{background-position: -392px -456px;width:36px;height:20px;}
+.active .ico-xiaofei{background-position: -392px -480px;}
+.ico-chongzhi{background-position: -432px -456px;width:36px;height:20px;}
+.active .ico-chongzhi{background-position: -432px -480px;}
+.ico-tuikuan{background-position: -472px -456px;width:36px;height:20px;}
+.active .ico-tuikuan{background-position: -472px -480px;}
+/* Icon x24 */
+.ico-24   {width:24px !important;height:24px !important;position:relative;top:-2px;}
+.ico-24.ico-known{background-position: -408px -88px;}
+.ico-24.ico-unknown{background-position: -432px -88px;}
+.ico-24.ico-other{background-position: -456px -88px;}
+.ico-24.ico-home{background-position: -480px -88px;}
+.ico-24.ico-user{background-position: -504px -88px;}
+/*
+	Icon Process Theme
+*/
+.ico-process-theme{width:20px !important;height:12px !important;border-radius:3px;}
+.ico-bg-red{background:#FF0000;}
+.ico-bg-green{background:#009C00;}
+.ico-bg-yellow{background:#FF9103;}

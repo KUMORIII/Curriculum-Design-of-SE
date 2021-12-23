@@ -1,0 +1,93 @@
+/* Button style of sys */
+.button,
+.button i,
+.button s             {background-image:url(images/button.png);background-repeat:repeat-x;background-position:0 -480px;border:0;float:left;height:36px;}
+.button i,
+.button s             {width:5px;font-size:0;line-height:0;overflow:hidden;position:relative;}
+.button i             {background-position:-390px -420px;left:-5px;}
+.button s             {background-position:-395px -420px;z-index:1;margin-right:-5px;}
+.button               {cursor: pointer;margin:0 15px 0 5px;}
+.button span          {color:#124372;height:28px;padding:8px 5px 0 0;float:left;font-size:12px;}
+.button span .icon    {float:left;margin:0 4px 0 0;}
+.button:hover,
+.btn-change           {background-position:0 -526px;text-decoration:none;}
+.button:hover s,
+.btn-change s         {background-position:-385px -420px;}
+.button:hover i,
+.btn-change i         {background-position:-380px -420px;}
+.button:hover span,
+.btn-change span      {background-position:-380px -420px;}
+
+.btn-save,
+.btn-save:hover       {background-position:0 -620px;}
+.btn-save s,
+.btn-save:hover s     {background-position:-366px -421px;}
+.btn-save i,
+.btn-save:hover i     {background-position:-361px -421px;}
+.btn-save span        {color:#fff;font-size:16px;font-family:"Microsoft YaHei";padding-top:6px;}
+.btn-save .icon       {float:left;margin-top:1px !important;}
+.btn-read,
+.btn-read:hover       {background-position:0 -783px;}
+.btn-read s,
+.btn-read:hover s     {background-position:-345px -420px;}
+.btn-read i,
+.btn-read:hover i     {background-position:-340px -420px;}
+.btn-read span        {color:#fff;font-size:16px;padding-left:5px;padding-right:10px;font-family:"Microsoft YaHei"}
+.btn-read .icon       {float:left;margin-top:1px !important;}
+
+
+.btn-small,
+.btn-small:hover       {background-position:0 -160px;height:26px !important;}
+.btn-small s,
+.btn-small:hover s     {background-position:-394px -192px;height:26px !important;}
+.btn-small i,
+.btn-small:hover i     {background-position:-380px -192px;height:26px !important;}
+.btn-small span        {color:#333;font-size:12px;padding:3px 2px 2px 0 !important;font-family:"Microsoft YaHei";height:23px !important;}
+
+.btn-reset            {background-position:0 -160px;}
+.btn-reset span       {background-position:right -192px;}
+.btn-reset:hover      {background-position:0 -224px;}
+.btn-reset:hover span {background-position:right -256px;}
+.btn-reset:active     {background-position:0 -288px;}
+.btn-reset:active span{background-position:right -320px;}
+.btn-viewmore         {background-position:0 -16px;height:20px;}
+.btn-viewmore span    {background-position:right -40px;color:#fff;height:20px;line-height:20px;font-family:"simsun"}
+.button .icon         {float:left;margin:4px 4px 0 0;}
+.btn-green            {background-position:0 -64px;}
+.btn-green span       {background-position:right -96px;color:#fff;}
+.btn-login            {background-position:-64px -420px;height:34px;width:78px;}
+.btn-register         {background-position:-192px -420px;height:37px;width:92px;}
+.btn-add,
+.btn-add:hover        {background-position:0 -664px;width:68px;height:27px;}
+.btn-unadd,
+.btn-unadd:hover      {background-position:-80px -664px;width:68px;height:27px;}
+
+.btn-current          {background-position:0 -700px !important;}
+.btn-current i        {background-position:-351px -420px !important;}
+.btn-current s        {background-position:-356px -420px !important;}
+.btn-current span     {color:#fff;}
+
+.btn-simple,
+.btn-simple:hover     {background-color:#3064B0;background-position:0 -750px;color:#fff;height:21px;font-size:12px;font-weight:bold;padding:3px 10px 0;margin:0 5px 0 0;}
+.btn-simple-b,
+.btn-simple-b:hover   {height:24px;padding-top:7px;}
+
+.more-select,
+a:hover .more-select,
+.btn-change .more-select{background:url(images/selectrow.gif) 95% 47% no-repeat transparent;padding-right:16px !important;}
+.btn-simple .icon{position:relative;top:-3px;}
+
+.btn-simple-disable,
+.btn-simple-disable:hover{background-color:#F3F3F3 !important;background-position:0 -826px;color:#B6B6B6;border:1px solid #EAEAEA;height:22px;}
+.next-button-max{background-color:#FF6600;color:#fff;border-radius:5px;box-shadow:0 1px rgba(24, 26, 27, 0.1) inset, 0 1px rgba(255, 255, 255, 0.8), 0 0 10px rgba(175, 160, 154, 0.50), 0 2px rgba(255, 255, 255, 0.1);0 2px rgba(180, 180, 180, 0.1) inset, 0 2px rgba(255, 255, 255, 0.1);cursor:pointer;height:70px;min-width:196px;font-size:28px;border:0;font-family:"Microsoft Yahei";line-height:70px;}
+.normal-button-mid{background-color:#FF6600;color:#fff;border-radius:5px;box-shadow:0 1px rgba(24, 26, 27, 0.1) inset, 0 1px rgba(255, 255, 255, 0.8), 0 0 5px rgba(175, 160, 154, 0.50), 0 2px rgba(255, 255, 255, 0.1);0 2px rgba(180, 180, 180, 0.1) inset, 0 2px rgba(255, 255, 255, 0.1);cursor:pointer;height:36px;font-size:16px;border:0;font-family:"Microsoft Yahei";padding:0 20px;}
+.normal-button{border-radius:5px;height:34px;font-size:16px;border:0;font-family:"Microsoft Yahei";padding:0 20px;}
+.small-button{border-radius:5px;height:26px;cursor:pointer;font-size:14px;border:0;font-family:"Microsoft Yahei";padding:0 10px;}
+
+.button-blue{background-color:#0094D8;color:#fff;cursor:pointer;}
+.button-orange{background-color:#FF6600;color:#fff;cursor:pointer;}
+.button-disable{background-color:#adadad;color:#fff;cursor:pointer;}
+
+.onoff-button{background-image:url("images/onoff.png");background-repeat:no-repeat;background-color:transparent;border:0;cursor:pointer;text-indent:-999em;height:26px;width:65px;overflow:hidden;}
+.onoff-button.on{background-position:0 0;}
+.onoff-button.off{background-position:0 -26px;}
