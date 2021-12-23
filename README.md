@@ -15,13 +15,14 @@ AHU 软件工程概论实验课设 学生考勤管理系统
 
 ### 2 下载django
 命令行输入 `conda install django` / `pip install django`
+我的Django版本: 3.2.8
 
 ### 3 运行
 cd 至根目录下 `python manage.py runserver`
 
 ## Django的基本使用方法
 
-对Django的基本使用请见：[Django初见教程]()
+对Django的基本使用请见：[Django初见教程](Django教程.md)
 
 ## 已完成模块
 
