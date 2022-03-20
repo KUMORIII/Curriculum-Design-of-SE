@@ -13,9 +13,10 @@ AHU 软件工程概论实验课设 学生考勤管理系统
 
 [Anaconda](https://www.anaconda.com/)
 
-### 2 下载django
+### 2 下载django和simpleui
 命令行输入 `conda install django` / `pip install django`
 我的Django版本: 3.2.8
+命令行输入`conda install django-simpleui` / `pip install django-simpleui`
 
 ### 3 运行
 cd 至根目录下 `python manage.py runserver`
