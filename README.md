@@ -22,7 +22,7 @@ cd 至根目录下 `python manage.py runserver`
 
 ## Django的基本使用方法
 
-对Django的基本使用请见：[Django初见教程](Django教程.md)
+对Django的基本使用请见：[Django初见教程](https://www.cnblogs.com/kumori/p/15962582.html)
 
 ## 已完成模块
 
